@@ -1,4 +1,5 @@
 const characters = require('./data/swapi');
+// DO NOT CHANGE THE LINE ABOVE
 
 /**
  * listAllCharacters()
