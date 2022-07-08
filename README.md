@@ -15,7 +15,7 @@ Then run:
 
 ```js
 
-node indes.js
+node index.js
 
 ```
 
