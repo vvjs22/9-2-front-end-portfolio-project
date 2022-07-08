@@ -6,14 +6,37 @@ const characters = require('./data/swapi');
  * Returns all character names from an array of characters. If the inputted array is empty, returns 0.
  * @param {Object[] characters} - an array of movie characters
  * @returns {string[]} an array of strings, which are character names
+ *
+ *
+ * EXAMPLE:
+ * 
+ * listAllCharacters([])
+ * 
+ * //> 0
+ * 
+ * 
+ * 
+ * listAllCharacters(characters);
+ *
+ * //> [
+  'Luke Skywalker',
+  'C-3PO',
+  'R2-D2',
+  'Darth Vader',
+  'Leia Organa',
+  'Owen Lars',
+  'Beru Whitesun Lars',
+  'R5-D4',
+  'Biggs Darklighter',
+  'Obi-Wan Kenobi'
+   ];
+ *
  */
 
 function listAllCharacters() {}
 
-//UnComment line 15 and line 17 below to test the function
-// should return 0
+// UnComment the two lines below to test
 // console.log(listAllCharacters([]));
-// should return ['Luke Skywalker','C-3PO','R2-D2','Darth Vader','Leia Organa','Owen Lars','Beru Whitesun Lars','R5-D4','Biggs Darklighter','Obi-Wan Kenobi']
 // console.log(listAllCharacters(characters));
 
 /**
