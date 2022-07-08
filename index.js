@@ -35,7 +35,7 @@ const characters = require('./data/swapi');
 
 function listAllCharacters() {}
 
-// UnComment the two lines below to test
+// UnComment the two lines below to test the function
 // console.log(listAllCharacters([]));
 // console.log(listAllCharacters(characters));
 
