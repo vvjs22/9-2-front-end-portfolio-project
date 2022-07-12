@@ -117,7 +117,7 @@ function getAllCharactersCreatedAfterYear() {}
    }
  */
 
-function getCharactersInMovie(chars, title) {}
+function getCharactersInMovie() {}
 
 // Uncomment line below to test
 // console.log(getCharactersInMovie(characters, 'return of the jedi'));
