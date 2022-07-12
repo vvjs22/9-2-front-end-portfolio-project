@@ -5,7 +5,7 @@ const characters = require('./data/swapi');
  * listAllCharacters()
  * --------------------
  * Returns all character names from an array of characters. If the inputted array is empty, returns 0.
- * @param {Object[] characters} - an array of movie characters
+ * @param {Object[]} characters - an array of movie characters
  * @returns {string[]} an array of strings, which are character names
  *
  *
@@ -44,7 +44,7 @@ function listAllCharacters() {}
  * averageHeightOfAllCharacters()
  * -------------------------------
  * Returns the average height of all of the listed characters
- * @param {Object[]} - characters - an array of movie characters
+ * @param {Object[]} characters - an array of movie characters
  * @returns {number} - a number representing the average height
  *
  */
@@ -58,11 +58,11 @@ function averageHeightOfAllCharacters() {}
  * countByEyeColor()
  * -------------------
  * Returns an object where the keys are the eye colors and the values are number of characters with that eye color. If the inputted array is empty, return 'Nothing to check.'
- * @param {Object[] characters} - an array of movie characters
+ * @param {Object[]} characters - an array of movie characters
  * @returns {Object} - keys are the eye colors and values are the number of characters with that eye color
  */
 
-function countByEyeColor(chars) {}
+function countByEyeColor() {}
 
 // should return 'Nothing to check.'
 // console.log(countByEyeColor([]))
@@ -73,7 +73,7 @@ function countByEyeColor(chars) {}
  * getAllCharactersCreatedAfterYear()
  * ------------------
  * Returns an array of all characters created on or after a certain year
- * @param {Object[] characters} - an array of movie characters
+ * @param {Object[]} characters - an array of movie characters
  * @param {Number} date - date to be considered for when character object was created
  * @returns {String[]} - returns an array of character names
  * EXAMPLE:
@@ -91,7 +91,7 @@ function countByEyeColor(chars) {}
  *
  */
 
-function getAllCharactersCreatedAfterYear(chars, d) {}
+function getAllCharactersCreatedAfterYear() {}
 
 // UnComment line below to test
 // console.log(getAllCharactersCreatedAfterYear(characters, 2014));
@@ -99,7 +99,7 @@ function getAllCharactersCreatedAfterYear(chars, d) {}
 /** getCharactersInMovie()
  *  ------------------
  *  Returns an object of characters who were in a certain film. Their id will be the key and their name should be the value. Title should be CASE INCENSITIVE
- *  @param {Object[] characters} - an array of movie characters
+ *  @param {Object[]} characters - an array of movie characters
  *  @param {String} - string with the title of the movie
  *  @returns {Object} - key should be the id and the value should be their name
  *
