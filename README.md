@@ -7,6 +7,13 @@
 1.  Fork and clone this repository.
 1.  Open up the repository in VSCode. Follow the instructions below to complete the Lab.
 
+In your terminal run:
+
+```js
+  npm init
+
+```
+
 ### Tests
 
 There are no Jest tests for this parctice.
