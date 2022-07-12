@@ -29,6 +29,6 @@ This repository contains the following file that you will want to take a look at
 ### Function descriptions
 
 You will find instructions, examples and descriptions in the `index.js`
-Use the JSDOC instructions and examples as your guide.
+Use the JSDoc instructions and examples as your guide.
 
 Good Luck!
