@@ -42,7 +42,7 @@ function listAllCharacters() {}
 
 /**
  * averageHeightOfAllCharacters()
- * -------------------------------
+ * ------------------------------
  * Returns the average height of all of the listed characters
  *
  * @param {Object[]} characters - an array of movie characters
@@ -58,7 +58,7 @@ function averageHeightOfAllCharacters() {}
 
 /**
  * countByEyeColor()
- * -------------------
+ * -----------------
  * Returns an object where the keys are the eye colors and the values are number of characters with that eye color.
  * If the inputted array is empty, return 'Nothing to check.'
  *
@@ -84,7 +84,7 @@ function countByEyeColor() {}
 
 /**
  * getAllCharactersCreatedAfterYear()
- * ------------------
+ * ----------------------------------
  * Returns an array of all characters created on or after a certain year
  * 
  * @param {Object[]} characters - an array of movie characters
@@ -112,7 +112,7 @@ function getAllCharactersCreatedAfterYear() {}
 // console.log(getAllCharactersCreatedAfterYear(characters, 2014));
 
 /** getCharactersInMovie()
- *  ------------------
+ *  ----------------------
  *  Returns an object of characters who were in a certain film. 
  *  Their id will be the key and their name should be the value. 
  *  Title should be CASE INCENSITIVE meaning, 
