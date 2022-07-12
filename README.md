@@ -9,7 +9,7 @@
 
 ### Tests
 
-All tests are manual for this practice.
+There are no Jest tests for this parctice.
 To test each function, uncomment the designated lines in the `index.js` file.
 Then run:
 
@@ -31,5 +31,7 @@ This repository contains the following file that you will want to take a look at
 ### Function descriptions
 
 You will find instructions, examples and descriptions in the `index.js`
+Use the JSDOC instructions and examples as your guide.
+Uncomment where specified to test your code.
 
 Good Luck!
