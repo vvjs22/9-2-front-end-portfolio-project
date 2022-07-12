@@ -11,15 +11,13 @@
 
 There are no Jest tests for this parctice.
 To test each function, uncomment the designated lines in the `index.js` file.
-Then run:
+Then, from the root directory of your project, run:
 
 ```js
 
 node index.js
 
 ```
-
-in your terminal from the root directory of your project.
 
 ### Existing files
 
