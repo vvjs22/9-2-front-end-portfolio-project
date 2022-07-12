@@ -114,6 +114,7 @@ function getAllCharactersCreatedAfterYear() {}
  *  if the string argument is e.g. 'star wars' or 'STAR WARS' or 'STaR wArs' 
  *  and there is a film called 'Star Wars' in the character's data, 
  *  the character was in the film and should be returned.
+ * 
  *  @param {Object[]} characters - an array of movie characters
  *  @param {String} - string with the title of the movie
  *  @returns {Object} - key should be the id and the value should be their name
