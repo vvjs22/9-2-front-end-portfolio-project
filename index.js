@@ -36,7 +36,7 @@ const characters = require('./data/swapi');
 
 function listAllCharacters() {}
 
-// UnComment the two lines below to test the function
+//UNCOMMENT THE LINES BELOW TO TEST YOUR SOLUTION
 // console.log(listAllCharacters([]));
 // console.log(listAllCharacters(characters));
 
@@ -51,22 +51,32 @@ function listAllCharacters() {}
 
 function averageHeightOfAllCharacters() {}
 
-//Uncomment the line below to test the function
+//UNCOMMENT THE LINE BELOW TO TEST YOUR SOLUTION
 //console.log(averageHeightOfAllCharacters(characters))
 
 /**
  * countByEyeColor()
  * -------------------
- * Returns an object where the keys are the eye colors and the values are number of characters with that eye color. If the inputted array is empty, return 'Nothing to check.'
+ * Returns an object where the keys are the eye colors and the values are number of characters with that eye color.
+ * If the inputted array is empty, return 'Nothing to check.'
  * @param {Object[]} characters - an array of movie characters
  * @returns {Object} - keys are the eye colors and values are the number of characters with that eye color
+ *
+ * EXAMPLE:
+ * countByEyeColor([])
+ *
+ * //> 'Nothing to check.'
+ *
+ * countByEyeColor(characters)
+ *
+ * { blue: 3, yellow: 2, red: 2, brown: 2, blue-gray: 1 };
+ *
  */
 
 function countByEyeColor() {}
 
-// should return 'Nothing to check.'
+//UNCOMMENT THE LINES BELOW TO TEST YOUR SOLUTION
 // console.log(countByEyeColor([]))
-// should return { blue: 3, yellow: 2, red: 2, brown: 2, 'blue-gray': 1 }
 // console.log(countByEyeColor(characters));
 
 /**
@@ -93,12 +103,15 @@ function countByEyeColor() {}
 
 function getAllCharactersCreatedAfterYear() {}
 
-// UnComment line below to test
+//UNCOMMENT THE LINE BELOW TO TEST YOUR SOLUTION
 // console.log(getAllCharactersCreatedAfterYear(characters, 2014));
 
 /** getCharactersInMovie()
  *  ------------------
- *  Returns an object of characters who were in a certain film. Their id will be the key and their name should be the value. Title should be CASE INCENSITIVE
+ *  Returns an object of characters who were in a certain film. 
+ *  Their id will be the key and their name should be the value. 
+ *  Title should be CASE INCENSITIVE meaning, 
+ * if the string argument is 'star wars' and there is a film called 'Star Wars', it should use 
  *  @param {Object[]} characters - an array of movie characters
  *  @param {String} - string with the title of the movie
  *  @returns {Object} - key should be the id and the value should be their name
@@ -119,5 +132,5 @@ function getAllCharactersCreatedAfterYear() {}
 
 function getCharactersInMovie() {}
 
-// Uncomment line below to test
+//UNCOMMENT THE LINE BELOW TO TEST YOUR SOLUTION
 // console.log(getCharactersInMovie(characters, 'return of the jedi'));
