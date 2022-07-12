@@ -5,9 +5,9 @@ const characters = require('./data/swapi');
  * listAllCharacters()
  * --------------------
  * Returns all character names from an array of characters. If the inputted array is empty, returns 0.
+ * 
  * @param {Object[]} characters - an array of movie characters
  * @returns {string[]} an array of strings, which are character names
- *
  *
  * EXAMPLE:
  * 
@@ -44,9 +44,11 @@ function listAllCharacters() {}
  * averageHeightOfAllCharacters()
  * -------------------------------
  * Returns the average height of all of the listed characters
+ *
  * @param {Object[]} characters - an array of movie characters
  * @returns {number} - a number representing the average height
  *
+ * No example for this one. You should be able to find the average at this point
  */
 
 function averageHeightOfAllCharacters() {}
@@ -59,6 +61,7 @@ function averageHeightOfAllCharacters() {}
  * -------------------
  * Returns an object where the keys are the eye colors and the values are number of characters with that eye color.
  * If the inputted array is empty, return 'Nothing to check.'
+ *
  * @param {Object[]} characters - an array of movie characters
  * @returns {Object} - keys are the eye colors and values are the number of characters with that eye color
  *
@@ -83,9 +86,11 @@ function countByEyeColor() {}
  * getAllCharactersCreatedAfterYear()
  * ------------------
  * Returns an array of all characters created on or after a certain year
+ * 
  * @param {Object[]} characters - an array of movie characters
  * @param {Number} date - date to be considered for when character object was created
  * @returns {String[]} - returns an array of character names
+ * 
  * EXAMPLE:
  * getAllCharactersCreatedAfterYear(characters, 2014)
  *
