@@ -3,7 +3,7 @@ const characters = require('./data/swapi');
 
 /**
  * listAllCharacters()
- * --------------------
+ * -------------------
  * Returns all character names from an array of characters. If the inputted array is empty, returns 0.
  * 
  * @param {Object[]} characters - an array of movie characters
