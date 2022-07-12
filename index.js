@@ -44,7 +44,7 @@ function listAllCharacters() {}
  * averageHeightOfAllCharacters()
  * -------------------------------
  * Returns the average height of all of the listed characters
- * @param {Object[] characters} - an array of movie characters
+ * @param {Object[]} - characters - an array of movie characters
  * @returns {number} - a number representing the average height
  *
  */
