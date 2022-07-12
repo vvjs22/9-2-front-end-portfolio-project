@@ -30,6 +30,5 @@ This repository contains the following file that you will want to take a look at
 
 You will find instructions, examples and descriptions in the `index.js`
 Use the JSDOC instructions and examples as your guide.
-Uncomment where specified to test your code.
 
 Good Luck!
