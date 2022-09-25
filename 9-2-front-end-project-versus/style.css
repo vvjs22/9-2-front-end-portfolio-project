@@ -1,0 +1,93 @@
+.search-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: .25rem;
+    align-items: center;
+}
+
+#searchBar {
+    text-align: center;
+    font-family: Impact, Haettenschweiler,
+
+}
+
+input {
+    font-size: 1rem;
+}
+
+.container {
+    display: grid; 
+    grid-template-columns: 2fr 2fr; 
+    grid-template-rows: 1fr; 
+    gap: 5px 5px; 
+    grid-template-areas: 
+      ". ."; 
+  
+}
+
+.card1, .card2 {
+    border: 5px solid;
+    background-color: black;
+    padding: .5rem;    
+}
+
+.card1 > .artistName, .card2 > .artistName {
+    margin-bottom: .25rem;
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.card1 >.artistBio, .card2>.artistBio{
+    text-align: center;
+    font-size: .8rem;
+    font-style: inherit;
+    color: whitesmoke
+
+}
+
+.hide {
+    display: none;
+}
+
+h1 {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+h2 {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+a {
+    text-align: center;
+    border: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: .25rem;
+    align-items: center;
+
+}
+
+p {
+    text-align: center;
+}
+
+div {
+    border: 1em;
+}
+
+.data-rapper-template p {
+font-style:italic;
+}
+
+.data-rapper-template a {
+    font-style:italic;
+    }
+
+
+       
